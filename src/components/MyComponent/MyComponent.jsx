@@ -5,6 +5,11 @@ import './MyComponent.css';
 export default function MyComponent() {
   return (
     <div className="mc-root">
+      <Image
+        className="mc-top-icon"
+        src="https://api.builder.io/api/v1/image/assets/32491473685643e591b758fde556dbbe/1ce39cadbd2f89177bafa8639488a3bcab1165d4?placeholderIfAbsent=true"
+        alt="icon"
+      />
       <Columns className="mc-top-columns columns--gap-16">
         <Column className="mc-left-58">
           <div className="mc-left-stack">
@@ -69,7 +74,7 @@ export default function MyComponent() {
               </div>
               <Image
                 className="mc-add-circle"
-                src="https://api.builder.io/api/v1/image/assets/32491473685643e591b758fde556dbbe/879d10cb8172cac57d936238a6926e5db2504bec?placeholderIfAbsent=true"
+                src="https://api.builder.io/api/v1/image/assets/32491473685643e591b758fde556dbbe/cd556915a39e25ad579facc19ef9b298a2dc548c?placeholderIfAbsent=true"
                 alt="Add"
               />
             </Column>

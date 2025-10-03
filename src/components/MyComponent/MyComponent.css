@@ -45,6 +45,15 @@
   object-fit: contain;
 }
 
+/* Top icon */
+.mc-top-icon {
+  position: relative;
+  display: flex;
+  width: 53px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 /* Disclosure button */
 .mc-disclosure {
   position: relative;
